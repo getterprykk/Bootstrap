@@ -5,28 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Bootstrap</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bootstrap</h1>
-    <h2>Bootstrap</h2>
-    <h3>bootstrap</h3>
-    <h2 class="h3">this is an h2 tag with the h3</h2>
+  <nav class="navbar">
+       <div class="container-xxl">
+           <a href="#intro" class="navbar-brand">
+               <span class="fw-bold text-secondary">
+                   Net Ninja - the book
+               </span>
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"></button>
+       </div>
+   </nav>
 
-    <h1 class="display-1">display 1 heading</h1>
-    <h2 class="display-4">display 4 heading</h2>
-    <h3 class="display-6">display 6 heading</h3>
-    <p class="display-1">p tag with display-1 class</p>
+   <section id="intro">
+   <div class="container-lg">
+       <div class="row justify-content-center align-items-center">
+           <div class="col-md-3 text-center text-md-start">
+               <h1>
+                   <div class="display-2">Black-Belt</div>
+                   <div class="display-5">Your Coding Skills</div>
+               </h1>
+               <p class="lead my-4 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+               <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+           </div>
+           <div class="col-md-5 text-center d-none d-md-block">
+               <img class="img-fluid" src="assets/ebook-cover.png" alt="ebook cover">
+           </div>
+       </div>
+   </div>
+</section>
 
-    <p>meow meow meow</p>
-    <p class="lead">Meow meow meow</p>
-    <p class="lead text-center">Meow meow meow</p>
-    <p class="lead text-end">Meow meow meow</p>
-    <p class="lead text-start">Meow meow meow</p>
 
-<p class="text-decoration-underline">this is underlined text</p>
-<p class="text-decoration-line-through">this is line through text</p>
-<p class="fw-bold">this is bold text</p>
-<small>this is small text</small>
 
 
 
