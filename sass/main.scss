@@ -1,7 +1,7 @@
 
 // custom variable values
-$primary: deeppink;
-$light: lightpink;
+$primary: #d63384;
+$light: pink;
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/_functions";
@@ -9,9 +9,8 @@ $light: lightpink;
 
 // custom theme colours
 $custom-theme-colors: (
-  "altlight": lightyellow,
-  "altdark": lightpink,
-);
+  "altlight": rgb(255, 255, 255),
+  "altdark": pink,);
 
 // merge the maps to add new theme colors
 
